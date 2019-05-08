@@ -1,0 +1,510 @@
+html{
+    box-sizing: border-box;
+   }
+   
+   *, *:before, *:after{
+    box-sizing: inherit;
+   }
+
+
+body {
+ background-image: url("../images/site/background.jpg");
+ background-position: center center;   
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ width: 70%;
+ margin: auto;
+}
+
+
+h1{
+  text-align: center;
+	letter-spacing: 5px;
+	font-family: 'Indie Flower', cursive;
+}
+
+h2{
+  text-align: left;
+  letter-spacing: 2px;
+  font-family: 'Indie Flower', cursive;
+}
+
+h3{
+  text-align: right;
+  letter-spacing: 2px;
+  font-family: 'Indie Flower', cursive;
+}
+
+p{
+	font-family: 'Indie Flower', cursive;
+}
+
+.navigation {	
+     	display: flex;
+ 	flex-direction: row;
+    background-color: #de2226;
+    overflow: hidden;
+    text-align: center;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+  }
+
+.navigation a {	
+   display: block;
+   color: #000000;
+   padding: .5rem;
+   text-align: center;
+   text-decoration: none;
+   font-weight: bold;
+  }
+.navigation a:hover {
+	color: #990033;
+	background-color: #ffffff;
+	font-weight: bolder;
+        /*padding-bottom: 30px;*/
+        /*display:inline;*/
+  }
+
+.navigation button {
+    float: right;
+  }
+
+  
+.navigation li { 
+    
+    font-family: 'Indie Flower', cursive;
+    display: inline-block;
+    font-size: 4vw;
+    /*line-height: 1vw;*/
+    
+    }
+
+ 
+
+.account{
+    margin-top: 10px;
+	text-align: right;
+    margin-right: 20px;
+height:30px;
+    display: flex;
+    
+    text-decoration: none;
+}
+
+.account a:hover {
+    background-color: #000000;
+    color:#ffffff;
+    
+}
+
+.account a{
+
+	letter-spacing: 1px;
+	font-family: 'Indie Flower', cursive;
+	margin: 0;
+        margin-left: 13px;
+        font-size: 3vw;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+.account span{
+
+	letter-spacing: 1px;
+	font-family: 'Indie Flower', cursive;
+	margin: 0;
+        margin-left: 13px;
+        font-size: 3vw;
+        text-decoration: none;
+}
+
+.account a:visited {color: black;}
+
+.account a:visited:hover {color: white}
+
+.account img {
+height: 3vw;
+}
+ 
+.header{ 
+    background-color: #ffffff;
+ 	display: flex;
+ 	flex-direction: row;
+
+}
+ 
+ .logo{
+ 	flex: 1 6 20%;
+  margin-left: 20px;
+
+ }
+ .logo img {
+     width: 43vw;
+ }
+ 
+footer {
+  color: #000000;
+  background-color: #808080;
+  clear:both;
+  text-align: center;
+  font-weight: bolder;
+  border-top: 20px solid #000;
+  /*margin-left: 20px;
+  margin-right: 20px;*/
+  font-size: 0.7em;
+}
+
+header{
+  background-color: white;
+  margin-left: 90%;
+  margin-right: 90%; 
+  display: inline;
+}
+
+.all {
+    background-color: #ffffff;
+
+/*display: flex;*/
+
+margin-top: -19px;
+}
+
+.all h1 {
+    text-align: left;
+letter-spacing: 5px;
+font-family: 'Indie Flower', cursive;
+font-weight: bold;
+font-size: 4vw;
+}
+
+.featured {
+background-image: url("../images/site/rocketfeature.jpg");
+
+background-position: center center;
+
+background-repeat: no-repeat;
+
+background-attachment: inherit;
+
+background-size: cover;
+
+display: flow-root;
+
+width:100%;
+}
+
+.featured ul {
+width: 40%;
+
+margin: auto;
+
+float: right;
+
+padding-right: 10px;
+list-style: none;
+font-size: 3vw;
+}
+
+.featured img {
+    width: 100%;
+}
+
+.secondary {
+    display: flex;
+}
+
+.sec-one {
+    width: 50%;
+}
+
+.sec-one ul {
+display: flex;
+
+padding: 0;
+
+list-style: none;
+
+text-align: center;
+}
+
+.sec-one li {
+    width: 50%;
+}
+
+.sec-one img {
+    width: 75%;
+
+text-align: center;
+}
+
+.sec-two {
+    width: 50%;
+}
+
+.sec-two ul {
+text-align: left;
+font-size: 2vw;
+}
+
+.sec-two h1 {
+    text-align: right;
+}
+
+.form {
+font-family: 'Indie Flower', cursive;
+
+border: none;
+
+width: 270px;
+
+padding-right: 70px;
+
+font-size: 20px;
+}
+
+.registerButton {
+    font-family: 'Indie Flower', cursive;
+
+background-color: #de2226;
+
+height: 40px;
+
+/*width: 120px;*/
+
+font-size: 24px;
+color: white;
+margin-left: 15px;
+}
+
+.loginButton {
+    font-family: 'Indie Flower', cursive;
+color:white;
+background-color: #de2226;
+
+height: 40px;
+
+width: 120px;
+
+font-size: 24px;
+
+margin-left: 15px;
+}
+
+.registration{
+letter-spacing: 1px;
+
+font-family: 'Indie Flower', cursive;
+
+font-size: 3vw;
+
+width: 290px;
+
+text-align: center;
+
+margin: 10px;
+
+
+}
+
+.registration a {
+border-width: 2px 2px 2px 2px;
+
+color: white;
+
+border-color: #bbb #888 #666 #aaa;
+
+text-decoration: none;
+
+background: #de2226;
+
+border-style: outset;
+
+padding: 2px;
+}
+
+.registration a:visited {
+    color: white;
+}
+
+.all form {
+    width: 50%;
+border: none;
+}
+
+.all fieldset {
+    border: none;
+}
+
+@media screen and (min-width: 800px) {
+.navigation li { 
+font-size: 30px;
+}
+.account a{
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.account span{
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.account img{
+    height:24px;
+}
+
+.all h1 {
+    font-size: 24px;
+}
+.featured ul {
+    font-size: 24px;
+}
+.featured li {
+    font-size: 18px;
+}
+.sec-one img {
+    width: 50%;
+}
+.sec-two ul {
+    font-size: 18px;
+}
+ .logo img {
+     width: 335px;
+ }
+ .registration {
+     font-size:2vw;
+ }
+ #prod-display{
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+   }
+   
+   #prod-display li img{
+    max-width: 200px;
+    flex: 1 0 auto;
+    text-align: center;
+    max-height: 400px;
+   }
+}
+@media screen and (max-width:799px){
+ #prod-display{
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+   }
+   
+   #prod-display li img{
+    max-width: 200px;
+    flex: 1 0 auto;
+    text-align: center;
+    max-height: 400px;
+   }
+
+}
+
+.imageDetails {
+    /* display:flex; */
+    background-color:white;
+    font-family: 'Indie Flower', cursive;
+   }
+
+   .imageDetails ul {
+    list-style: none;
+    flex-direction: row;
+   }
+   .imageDetails li {
+       flex-direction: row;
+       height: 100%;
+   }
+
+   .productimages{
+       height: 100%;
+   }
+   .productimage{
+    height: 100%;
+}
+#prod-display{
+    font-family: 'Indie Flower', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+   }
+   
+   #prod-display li{
+    margin-bottom: .5em;
+    border: 1px #ccc solid;
+    list-style-type: none;
+    flex: 1 1 auto;
+   }
+                   
+   #prod-display li img{
+height: 50%;
+   }
+
+   #prod-display span {
+    color: #de2226;
+    font-size: xx-large;
+font-weight: 900;
+   }
+
+   .productDetails {
+    display:flex;
+    background-color:white;
+    font-family: 'Indie Flower', cursive;
+   }
+
+   .detailbox {
+       width: 70%;
+   }
+
+   .productDetails ul {
+    list-style: none;
+   }
+
+   .productTitle {
+    color: #de2226;
+    text-align: left;
+    background-color: white;
+    margin-bottom: auto;
+   }
+
+   .price {
+    color: #de2226;
+    font-size: xx-large;
+font-weight: 900;
+   }
+
+   .review-display{
+    list-style: none;
+    background: white;
+    padding: 0;
+    margin: 0;
+   }
+
+   .review-display li { background: yellow; }
+
+   .review-display li p {background: white; margin: 0;}
+
+   .review-display h2 {margin: 0;}
+
+.imageBox {
+    list-style: none;
+
+    flex-direction: row;
+    
+    margin: 0;
+    
+    padding: 0;
+    
+    height: 80px;
+    
+    padding-bottom: 10px;
+    display: flex;
+}
+
+.reviewBox {
+    background: white;
+}
